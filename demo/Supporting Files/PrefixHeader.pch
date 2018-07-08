@@ -1,0 +1,96 @@
+//
+//  PrefixHeader.pch
+//  demo
+//
+//  Created by liman on 6/14/16.
+//  Copyright © 2016 apple. All rights reserved.
+//
+
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+
+#ifdef __OBJC__
+
+#import "Macros.h"
+#import "Category.h"
+#import "Chameleon.h"
+#import "UIViewExt.h"
+#import "LogHelper.h"
+#import "HUDHelper.h"
+#import "NetworkManager.h"
+#import "JSONManager.h"
+#import "YTKKeyValueStore.h"
+#import "toNSString.h"
+#import "PDKeychainBindings.h"
+#import "UIDeviceHardware.h"
+#import "MapManager.h"
+#import "JxbDebugTool.h"
+#import <Bugly/Bugly.h>
+#import "CoreModel.h"
+#import "CoreStatus.h"
+#import "SandboxTool.h"
+#import "TCCopyableLabel.h"
+#import "MJRefresh.h"
+#import "LocationTool.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
+#import "BabyBluetooth.h"
+#import <JSPatchPlatform/JSPatch.h>
+
+#import "BaseViewController.h"
+#import "BaseNavigationController.h"
+#import "BaseTabBarController.h"
+#import "BaseSettingViewController.h"
+#import "BaseSettingCell.h"
+#import "MyBaseEditViewController.h"
+#import "MyBaseWebViewController.h"
+#import "MyBaseCell.h"
+
+#import "LocationObject.h"
+#import "UserObject.h"
+#import "StationObject.h"
+#import "PositionObject.h"
+#import "BalanceObject.h"
+#import "FriendObject.h"
+#import "MessageObject.h"
+#import "OrderObject.h"
+#import "PayObject.h"
+#import "BorrowObject.h"
+#import "APIService.h"
+
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+//微信SDK头文件
+#import "WXApi.h"
+
+#endif
+
+
+
+
+
+
+//com.ppcharge.ios
+//com.ppcharge.ios.demo
+
+//Bygly
+#define kBuglyKey @"13437d5b21"
+
+//高德地图
+#define kMapKay @"5fe1ffd170e6302811703bf6de75604c"//demo
+//#define kMapKay @"2dfd1cd74a55349a2dd720c30795d683"//prod
+
+//ShareSDK
+#define kShareSDK_AppKey @"1c2d7ea8d8eb1"
+
+//QQ
+#define kQQ_AppId @"100371282"
+
+//微信
+#define WXAppId @"wx517a8d83d6b4b67b"
+
+
+
+
